@@ -17,7 +17,6 @@ var stats = PlayerStats
 @onready var player_hurt_sound = preload("res://Player/player_hurt_sound.tscn")
 @onready var blink_animation_player = $BlinkAnimationPlayer
 
-
 func _ready():
 	randomize()
 	stats.no_health.connect(queue_free)
